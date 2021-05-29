@@ -41,7 +41,7 @@ global.params = {
 	showGyoseiKukaku: false, // 行政区画表示の有無
 	showAllMarkers: false, // 自治体を未選択の場合、すべてのマーカーの一括表示するか
 	googleMaps: { 
-		apiKey: 'AIzaSyC_EVZwa4PowMAavtIei27lgc8csXIHGhg', // Google Maps API キーを設定
+		apiKey: 'AIzaSyAuYO6d_R0fDXBDmwsRZzEyiWYz7fGdDEA', // Google Maps API キーを設定
 		baseApiUri: 'https://maps.googleapis.com/maps/api/js?callback=instructions&libraries=places&region=JP&language=ja&key={apiKey}',
 		baseKeiroUri1: 'https://www.google.co.jp/maps?q={address}&openExternalBrowser=1',
 		baseKeiroUri2: 'https://www.google.co.jp/maps/dir/?api=1&origin={address2}&destination={address1}&openExternalBrowser=1'
