@@ -183,7 +183,7 @@ global.params = {
 					height: 35
 				}
 			},
-			2: {
+			3: {
 				row: { // pc
 					fileName: 'sample.png',
 					width: 36,
