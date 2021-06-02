@@ -114,7 +114,8 @@ global.params = {
 	shisetsuInfo: { // 施設に関するパラメータ設定
 		category: {
 			0: "授乳スペース",
-			1: "おむつ替えスペース"
+			1: "おむつ替えスペース",
+			2: "休憩スペース"
 		},
 		enabledWords: [ // 数字以外に空きがあると判定する文言
 			'○', // 記号の丸
@@ -181,7 +182,19 @@ global.params = {
 					width: 36,
 					height: 35
 				}
-			}	
+			},
+			2: {
+				row: { // pc
+					fileName: 'sample.png',
+					width: 36,
+					height: 35
+				},
+				high: { // スマートフォン
+					fileName: 'sample.png',
+					width: 36,
+					height: 35
+				}
+			}		
 		}
 	},
 	serviceCheck: {

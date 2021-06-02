@@ -592,12 +592,14 @@
 			let category;
 			const shisetsuCategory = getCategory( shisetsu );
 
-			if( shisetsuCategory[0] && shisetsuCategory[1] ) {
+			if( shisetsuCategory[0] && shisetsuCategory[1] && shisetsuCategory[2]) {
 				category = 0;
 			} else if( shisetsuCategory[0] ) {
 				category = 1;
 			} else if( shisetsuCategory[1] ) {
 				category = 2;
+			} else if( shisetsuCategory[2] ) {
+				category = 3;
 			} else {
 				return false;
 			}
